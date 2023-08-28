@@ -14,7 +14,7 @@ int binomialCoeff(int n, int k)
 
 	for (i = 0; i <= n; i++) {
 		for (j = 0; j <= min(i, k); j++) {
-			// Base Cases
+			
 			if (j == 0 || j == i)
 				C[i][j] = 1;
 
